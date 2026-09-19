@@ -11,7 +11,7 @@ const createSchema = z.object({
 });
 
 function buildTargetUrl({ slug, token }) {
-  const base = "http://localhost:5173";
+  const base = "https://digital-menu-all.netlify.app";
   return `${base}/b/${slug}?qr=${token}`;
 }
 
