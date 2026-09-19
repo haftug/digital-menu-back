@@ -22,7 +22,7 @@ app.use(
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "http://172.25.112.1:5173",
+  "https://digital-menues.netlify.app",
   "http://192.168.137.1:5173",
   "https://digital-menu-all.netlify.app",
 ];
