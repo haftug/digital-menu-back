@@ -24,7 +24,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://172.25.112.1:5173",
   "http://192.168.137.1:5173",
-  "http://192.168.1.14:5173",
+  "https://digital-menu-all.netlify.app",
 ];
 
 app.use(
